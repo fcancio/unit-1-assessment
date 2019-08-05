@@ -1,0 +1,45 @@
+html, * {
+    font-family: 'Helvetica';
+    box-sizing: border-box;
+    font-size: 50px;
+  }
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.add, .subtract {
+    background-color: #A8A8A8;
+    margin: 2vmin;
+    border-radius: 1vmin;
+    padding: 1vmin 2.5vmin;
+    font-size: 35px;
+    font-weight: lighter;
+    color: white;
+    border: 2px solid #A8A8A8;
+}
+
+.subtract {
+    padding: 1vmin 3.5vmin;
+}
+
+.input {
+    width: 18vmin;
+    padding: 1vmin;
+    font-size: 35px;
+    border-radius: 1vmin;
+    border: 2px solid #A8A8A8;
+    text-align: center;
+}
+
+
+button:hover {
+    background-color: white;
+    color: #A8A8A8;
+    border: 1px solid #A8A8A8;
+}
